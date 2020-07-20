@@ -2032,7 +2032,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   padding: 0;
   list-style: none;
   float: left;
-  background-color:black;
+  background-color: wheat;
 }
 /*
  * 1. Create position context for dropdowns
@@ -2081,7 +2081,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 /* OnClick */
 .uk-navbar-nav > li > a:active {
   background-color: rgba(221, 221, 221, 0);
-  color: #000000;
+  color: wheat;
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
@@ -2138,13 +2138,13 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   color: #363533;
 }
 .uk-navbar-content > a:not([class]):hover {
-  color: #121313;
+  color: wheat;
 }
 /* Sub-objects: `uk-navbar-brand`
  ========================================================================== */
 .uk-navbar-brand {
   font-size: 20px;
-  color: #000000;
+  color: wheat;
   text-decoration: none;
 }
 /*
@@ -2153,7 +2153,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-brand:hover,
 .uk-navbar-brand:focus {
-  color: #000000;
+  color: wheat;
   text-decoration: none;
   /* 2 */
   outline: none;
@@ -2263,7 +2263,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  ========================================================================== */
 .uk-subnav > * > * {
   display: inline-block;
-  color: #000000;
+  color: wheat;
 }
 /*
  * Hover
@@ -10008,7 +10008,7 @@ img {
   z-index: 10;
 }
 .tt-nav-wrap.uk-active {
-  background-color:black;
+  background-color: #fdfdfd;
 }
 .tt-nav-wrap.uk-active .tm-logo span.logo-sub-text {
   display: none;
@@ -10140,9 +10140,10 @@ img {
   padding: 3px;
 }
 .uk-parent .uk-dropdown-navbar .uk-nav-navbar > li a {
-  background: #000000;
+  background: wheat;
   color: #fff;
   font-size: 12px;
+  /*border-radius: 20px;*/
 }
 .uk-parent .uk-dropdown-navbar .uk-nav-navbar > li:not(.uk-parent):hover a {
   background: #000000;
@@ -10187,7 +10188,7 @@ img {
 }
 .uk-parent .uk-dropdown-navbar .uk-nav-navbar .uk-nav-sub li a:hover {
   background: #fff;
-  color: #000000;
+  /*color: #000000;*/
 }
 .uk-subnav > li {
   width: 13%;

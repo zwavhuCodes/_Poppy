@@ -14,11 +14,11 @@
 }
   
 .uk-navbar-nav {
-    background-color: #2d2d2d;
+    background-color: #fafafa;
 }
 
 .uk-navbar-nav > li > a,
 .uk-navbar-nav > li.uk-active > a,
-.uk-navbar-nav > li:hover > a
-{
-    color: #FFF;
+.uk-navbar-nav > li:hover > a {
+    color: wheat;
+}
